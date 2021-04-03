@@ -58,6 +58,7 @@ namespace ariel {
     void ariel::Board::show() {
         minrow = minrow == 0 ? 1 : minrow;
         mincol = mincol == 0 ? 2 : mincol;
+        mincol = mincol == 1 ? 3 : mincol;
         for (unsigned int i = minrow - 1; i < maxrow + 1; ++i) {
             cout << "row " << i << ": ";
             for (unsigned int j = mincol - 2; j < maxcol + 3; ++j) {

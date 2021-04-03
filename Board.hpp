@@ -32,7 +32,8 @@ namespace ariel {
 
         string read(unsigned int row, unsigned int col, ariel::Direction dir, unsigned int length);
         //string read(const unsigned int row, int col,const ariel::Direction dir,const unsigned int length);
-
+//        string ariel::Board::read(const unsigned int row, const unsigned int col, const ariel::Direction dir,
+//                                  unsigned int length);
         void show();
     };
 }
